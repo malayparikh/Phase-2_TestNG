@@ -1,0 +1,78 @@
+Phase-2 Automation Testing
+
+
+We didnot pass any test data to our script
+We didnot pass any test data to our scripts via an excel sheet
+We didnot create any page object model
+We didnot also setup any pre-condition or post condition
+
+=======================
+
+E-commerce website
+=======================
+
+Preconditon: Go to browser and open it.
+	     Enter the URL
+
+Signup
+Login
+Search
+Purchase
+
+Postcondtion : 
+		Logout
+
+
+FrameWork :
+
+Selenium + TestNG
+Selenium + Maven + jenkins
+TDD
+Junit
+Selenium + BDD with Cucumber
+
+
+What is TestNG ?
+
+TestNG is insipired from Junit framework.
+TestNG is framework which is used and integrated with selenium to run your scripts in Organized Manner.
+TestNG ----> NG == New Generation
+
+===================================
+
+TestNG Features and Advantages :
+
+
+> Execute multiple scrips as Test Scenarios
+> Execute scripts one after the other
+> Set up preconditon and postcondition in your test cases
+> Run your tests in parallel
+> Set up dependency between test cases
+> Priortize our test cases
+> Group our test cases
+> pass test data to our scrips --> Data Driven Testing
+> Generate TestNG Reports
+> Parameterization to pass test data to our scrips
+> Time taken to run the automation scripts is reduced
+> Integrate selenium scripts and run via CICD Jenkis
+
+===========================================
+src/test/java ------------ TestNG
+package name : com.app.TestNGScripts
+
+==========================================
+Annotation:
+
+@Test  --> This is test method / test case / test class
+
+
+@Test
+public void Login(){
+
+
+}
+
+========================================
+
+
+
